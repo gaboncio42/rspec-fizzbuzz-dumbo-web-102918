@@ -2,11 +2,13 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(interger)
-  if interger % 3 == 0 
-    "Fizz"
+  if interger % 15 == 0 
+    "Fizzbuzz"
   elsif interger % 5 == 0 
     "Buzz"
-  else interger % 15 == 0 
-    "Fizzbuzz"
+  elsif interger % 3 == 0 
+    "Fizz"
+  else interger % 4 == 0
+    nil
   end
 end
