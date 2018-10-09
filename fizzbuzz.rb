@@ -3,7 +3,7 @@
 
 def fizzbuzz(interger)
   if interger % 15 == 0 
-    "Fizzbuzz"
+    "FizzBuzz"
   elsif interger % 5 == 0 
     "Buzz"
   elsif interger % 3 == 0 
