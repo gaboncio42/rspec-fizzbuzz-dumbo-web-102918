@@ -6,5 +6,7 @@ def fizzbuzz(interger)
     "Fizz"
   elsif interger % 5 == 0 
     "Buzz"
+  else interger % 15 == 0 
+    "Fizzbuzz"
   end
 end
