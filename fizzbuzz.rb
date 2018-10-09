@@ -4,4 +4,5 @@
 def fizzbuzz(interger)
   if interger % 3 == 0 
     "Fizz"
+  end
 end
