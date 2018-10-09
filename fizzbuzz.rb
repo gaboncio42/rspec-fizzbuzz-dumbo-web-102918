@@ -4,5 +4,7 @@
 def fizzbuzz(interger)
   if interger % 3 == 0 
     "Fizz"
+  elsif interger % 5 == 0 
+    "Buzz"
   end
 end
